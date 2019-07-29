@@ -50,7 +50,7 @@
         <!--Add New Photo-->
         <scene sceneID="4nu-g6-0fk">
             <objects>
-                <viewController id="e6G-TN-r0d" sceneMemberID="viewController">
+                <viewController id="e6G-TN-r0d" customClass="BinstaViewController" customModule="Binsta" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TLE-ka-Q74">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -82,9 +82,12 @@
                                 <state key="normal" title="Save"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zXQ-O4-FdX">
-                                <rect key="frame" x="63" y="333" width="54" height="30"/>
+                                <rect key="frame" x="50" y="184" width="54" height="328"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Camera"/>
+                                <connections>
+                                    <action selector="takeSelfieTapped:" destination="e6G-TN-r0d" eventType="touchUpInside" id="Cim-gD-gwt"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -94,7 +97,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p4N-K4-Cqs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1645" y="78"/>
+            <point key="canvasLocation" x="1644.9275362318842" y="77.678571428571431"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="cA5-fn-WSF">
