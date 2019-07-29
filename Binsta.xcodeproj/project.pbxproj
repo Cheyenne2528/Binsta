@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		18E72FD222EF69F1002360B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E72FD122EF69F1002360B2 /* AppDelegate.swift */; };
-		18E72FD422EF69F1002360B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E72FD322EF69F1002360B2 /* ViewController.swift */; };
 		18E72FD722EF69F1002360B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E72FD522EF69F1002360B2 /* Main.storyboard */; };
 		18E72FDA22EF69F1002360B2 /* Binsta.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18E72FD822EF69F1002360B2 /* Binsta.xcdatamodeld */; };
 		18E72FDC22EF69F3002360B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E72FDB22EF69F3002360B2 /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		18E72FCE22EF69F1002360B2 /* Binsta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Binsta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E72FD122EF69F1002360B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18E72FD322EF69F1002360B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18E72FD622EF69F1002360B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18E72FD922EF69F1002360B2 /* Binsta.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Binsta.xcdatamodel; sourceTree = "<group>"; };
 		18E72FDB22EF69F3002360B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				18E72FD122EF69F1002360B2 /* AppDelegate.swift */,
-				18E72FD322EF69F1002360B2 /* ViewController.swift */,
 				18E72FD522EF69F1002360B2 /* Main.storyboard */,
 				18E72FDB22EF69F3002360B2 /* Assets.xcassets */,
 				18E72FDD22EF69F3002360B2 /* LaunchScreen.storyboard */,
@@ -139,7 +136,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				18E72FDA22EF69F1002360B2 /* Binsta.xcdatamodeld in Sources */,
-				18E72FD422EF69F1002360B2 /* ViewController.swift in Sources */,
 				18E72FD222EF69F1002360B2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
