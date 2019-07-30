@@ -13,6 +13,7 @@
 		18E72FDC22EF69F3002360B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E72FDB22EF69F3002360B2 /* Assets.xcassets */; };
 		18E72FDF22EF69F3002360B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E72FDD22EF69F3002360B2 /* LaunchScreen.storyboard */; };
 		18E72FE722EF7539002360B2 /* BinstaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E72FE622EF7539002360B2 /* BinstaViewController.swift */; };
+		18E72FE922F08FDE002360B2 /* BinstaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E72FE822F08FDE002360B2 /* BinstaTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		18E72FDE22EF69F3002360B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18E72FE022EF69F3002360B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18E72FE622EF7539002360B2 /* BinstaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinstaViewController.swift; sourceTree = "<group>"; };
+		18E72FE822F08FDE002360B2 /* BinstaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinstaTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				18E72FE022EF69F3002360B2 /* Info.plist */,
 				18E72FD822EF69F1002360B2 /* Binsta.xcdatamodeld */,
 				18E72FE622EF7539002360B2 /* BinstaViewController.swift */,
+				18E72FE822F08FDE002360B2 /* BinstaTableViewController.swift */,
 			);
 			path = Binsta;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				18E72FDA22EF69F1002360B2 /* Binsta.xcdatamodeld in Sources */,
 				18E72FE722EF7539002360B2 /* BinstaViewController.swift in Sources */,
+				18E72FE922F08FDE002360B2 /* BinstaTableViewController.swift in Sources */,
 				18E72FD222EF69F1002360B2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
