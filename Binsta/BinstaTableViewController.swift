@@ -10,19 +10,19 @@ import UIKit
 
 class BinstaTableViewController: UITableViewController {
 
-    
+    var photo : Photos? = nil
     var photos : [Photos] = []
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
+    }
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
-    }
     
     func getPhotos(){
         if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
@@ -73,7 +73,20 @@ class BinstaTableViewController: UITableViewController {
         return cell
     }
     
-        
+    
+    override func prepare( for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if segue.identifier == "moveToDetail"
+        {
+            if let photoDetailView = segue.destination as? PhotoDetailViewController
+            {
+                if let photoToSend = sender as? Photos
+                {
+                    photoDetailView.photo = photoToSend
+                }
+            }
+        }
+    }
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {

@@ -42,6 +42,9 @@
                         </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <segue destination="xTl-N5-Imy" kind="show" id="LnB-Om-KEL"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jUS-0p-3RK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -100,7 +103,12 @@
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="yvF-hP-LVQ"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="4hs-mM-cJY" appends="YES" id="woN-VR-V1P"/>
+                            <outletCollection property="gestureRecognizers" destination="rjR-T3-GNx" appends="YES" id="MjJ-W9-o3a"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" title="Add New Photo" id="9Gc-pQ-D90"/>
                     <connections>
@@ -109,8 +117,34 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p4N-K4-Cqs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pinchGestureRecognizer id="4hs-mM-cJY"/>
+                <pinchGestureRecognizer id="rjR-T3-GNx"/>
             </objects>
             <point key="canvasLocation" x="1644.9275362318842" y="77.678571428571431"/>
+        </scene>
+        <!--Photo Detail View Controller-->
+        <scene sceneID="DRw-Pf-lE4">
+            <objects>
+                <viewController id="xTl-N5-Imy" customClass="PhotoDetailViewController" customModule="Binsta" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9QG-Z6-8MF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YlF-lz-wWh">
+                                <rect key="frame" x="87" y="143" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="m61-cE-4Lo"/>
+                    </view>
+                    <connections>
+                        <outlet property="DetailImage" destination="YlF-lz-wWh" id="bGX-jn-oAy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ovf-uL-KQW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2384" y="76"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="cA5-fn-WSF">

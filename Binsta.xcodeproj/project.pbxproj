@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1897AB3522F0B98300F85893 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897AB3422F0B98300F85893 /* PhotoDetailViewController.swift */; };
 		18E72FD222EF69F1002360B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E72FD122EF69F1002360B2 /* AppDelegate.swift */; };
 		18E72FD722EF69F1002360B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E72FD522EF69F1002360B2 /* Main.storyboard */; };
 		18E72FDA22EF69F1002360B2 /* Binsta.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18E72FD822EF69F1002360B2 /* Binsta.xcdatamodeld */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1897AB3422F0B98300F85893 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
 		18E72FCE22EF69F1002360B2 /* Binsta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Binsta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E72FD122EF69F1002360B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18E72FD622EF69F1002360B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				18E72FD822EF69F1002360B2 /* Binsta.xcdatamodeld */,
 				18E72FE622EF7539002360B2 /* BinstaViewController.swift */,
 				18E72FE822F08FDE002360B2 /* BinstaTableViewController.swift */,
+				1897AB3422F0B98300F85893 /* PhotoDetailViewController.swift */,
 			);
 			path = Binsta;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				18E72FDA22EF69F1002360B2 /* Binsta.xcdatamodeld in Sources */,
 				18E72FE722EF7539002360B2 /* BinstaViewController.swift in Sources */,
 				18E72FE922F08FDE002360B2 /* BinstaTableViewController.swift in Sources */,
+				1897AB3522F0B98300F85893 /* PhotoDetailViewController.swift in Sources */,
 				18E72FD222EF69F1002360B2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
