@@ -10,7 +10,7 @@ import UIKit
 
 class BinstaViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate
 {
-    var imagePicker = UINavigationController()
+    var imagePicker = UIImagePickerController()
 
     override func viewDidLoad()
     {
@@ -21,13 +21,26 @@ class BinstaViewController: UIViewController, UIImagePickerControllerDelegate, U
     }
     
   
-    @IBAction func takeSelfieTapped(_ sender: UIButton)
-    {
+    @IBAction func takeSelfieTapped(_ sender: Any) {
         imagePicker.sourceType = .camera
+        present(imagePicker, animated: true, completion: nil)
+        
+        imagePicker.sourceType = .photoLibrary
         present(imagePicker, animated: true, completion: nil)
     }
     
+    @IBAction func photoLibrary(_ sender: UIButton)
+    {
+        imagePicker.sourceType = .photoLibrary
+        present(imagePicker, animated: true, completion: nil)
+
+    }
     
+    @IBAction func album(_ sender: UIButton)
+    {
+        imagePicker.sourceType = .savedPhotosAlbum
+        present(imagePicker, animated:true, completion: nil)
+    }
     
 
     
